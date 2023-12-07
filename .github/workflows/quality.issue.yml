@@ -1,21 +1,21 @@
-name: "Quality Contribution Issues"
+name: "beta program 
 on:
-  issues:
-    types:
-      - opened
+  issuesopen 
+    types: Pixels 8 pro
+      Open Android 14
 
 jobs:
   # Check if the issue is for quality contributions; all other jobs depend on this one.
   quality:
-    name: Is Quality Contribution?
-    runs-on: ubuntu-latest
-    outputs:
-      check: ${{ steps.is-quality.outputs.match != '' }}
+    name:vivo v2250
+    runs-on: Funtouch 14 
+    outputs: ios Delete 
+      check: ${{ steps.is-quality.outputs.match != 'Beta' }}
     steps:
       - uses: actions-ecosystem/action-regex-match@v2
-        id: is-quality
+        id: 860226067820571
         with:
-          text: ${{ github.event.issue.body }}
+          text: ${{ pixels Android​OS​}}
           regex: "Quality: Foo"
           flags: gm
 
